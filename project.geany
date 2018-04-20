@@ -1,0 +1,84 @@
+[editor]
+line_wrapping=false
+line_break_column=72
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=The Count
+base_path=.\\
+description=
+file_patterns=*.c;*.h;
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=6
+FILE_NAME_0=948;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cbean.c;0;4
+FILE_NAME_1=0;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cbean.h;0;4
+FILE_NAME_2=0;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Ccartridge.c;0;4
+FILE_NAME_3=441;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cground.c;0;4
+FILE_NAME_4=0;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cground.h;0;4
+FILE_NAME_5=0;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cmain.c;0;4
+FILE_NAME_6=1919;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cpyoro.c;0;4
+FILE_NAME_7=0;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cpyoro.h;0;4
+FILE_NAME_8=0;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Ctest.c;0;4
+FILE_NAME_9=171;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Ctypes.h;0;4
+FILE_NAME_10=0;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cutils%5Ccontroller.h;0;4
+FILE_NAME_11=0;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cutils%5Cprint.c;0;4
+FILE_NAME_12=0;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cutils%5Cprint.h;0;4
+FILE_NAME_13=0;C;0;ECP1252;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cutils%5Csound.c;0;4
+FILE_NAME_14=0;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cutils%5Csound.h;0;4
+FILE_NAME_15=0;C;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cutils%5Cutils.c;0;4
+FILE_NAME_16=809;C++;0;EUTF-8;1;1;0;C%3A%5CUsers%5CRalle%5CHochschule%5CVectrex%5CProjects%5Cgame_own%5Csource%5Cutils%5Cutils.h;0;4
+
+[build-menu]
+NF_00_LB=_Make
+NF_00_CM="%p\\make.bat"
+NF_00_WD=%p
+NF_01_LB=Make (eigenes _Target)...
+NF_01_CM="%p\\make.bat"
+NF_01_WD=%p
+NF_02_LB=Make _Objekt-Datei
+NF_02_CM=make %e.o
+NF_02_WD=
+EX_00_LB=_Execute
+EX_00_CM="%p\\make.bat" run
+EX_00_WD=%p
+CFT_00_LB=_Compile
+CFT_00_CM="%p\\make_opt.bat" build
+CFT_00_WD=%p
+CFT_01_LB=_Build
+CFT_01_CM="%p\\make.bat" build
+CFT_01_WD=%p
+CFT_02_LB=_Lint
+CFT_02_CM="%p\\make.bat" lint
+CFT_02_WD=%p
+filetypes=C;C++;
+NF_03_LB=File Lint
+NF_03_CM=C:\\Programme\\Cppcheck\\cppcheck --language=c --enable=all --template=gcc "%f"
+NF_03_WD=
+C++FT_00_LB=_Compile
+C++FT_00_CM="%p\\make.bat" compile
+C++FT_00_WD=%p
+C++FT_01_LB=_Build
+C++FT_01_CM="%p\\make.bat" build
+C++FT_01_WD=%p
+C++FT_02_LB=_Lint
+C++FT_02_CM="%p\\make.bat" lint
+C++FT_02_WD=%p
